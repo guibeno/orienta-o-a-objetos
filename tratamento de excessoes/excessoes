@@ -1,0 +1,19 @@
+class Produto(TypeError):
+    def __init__(self, nome, preco):
+        self.nome = nome
+        self.preco = preco
+
+
+
+class Restaurante(Exception):
+    def __init__(self, nome):
+        self.nome = nome
+
+def __eq__(self, other):
+
+    if isinstance(other, Produto):
+
+        return self.nome.lower() == other.nome.lower() and self.preco == other.preco
+    return False
+
+    def __str__
